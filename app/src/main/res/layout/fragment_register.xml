@@ -36,19 +36,29 @@
                 android:inputType="text" />
 
             <!--Gender-->
+            <TextView
+                android:textStyle="bold"
+                android:text="Gender"
+                android:textSize="@dimen/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
             <RadioGroup
+                android:id="@+id/ragGender"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <!--Male-->
                 <RadioButton
+                    android:id="@+id/radMale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Male" />
 
                 <!--Female-->
+
                 <RadioButton
+                    android:id="@+id/radFemale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Female" />
